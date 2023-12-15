@@ -1,0 +1,55 @@
+/* YourLWC.css */
+
+:host {
+    display: block;
+    padding: 16px;
+  }
+  .slds-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px; /* Adjust the value to change the roundness of the corners */
+}
+
+.slds-grid {
+    margin: 1rem;
+}
+
+.slds-wrap {
+    flex-wrap: wrap;
+}  
+  
+  .lightning-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spinnerClass {
+    margin-top: 20px;
+  }
+  
+  .slds-align_absolute-center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  canvas {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  lightning-button {
+    margin-top: 16px;
+  }
+  
+  /* Adjust button color and hover effect */
+  lightning-button.variant-brand {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  lightning-button.variant-brand:hover {
+    background-color: #45a049;
+  }
+  

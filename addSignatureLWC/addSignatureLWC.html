@@ -1,0 +1,31 @@
+<template>
+    <div class="slds-container">
+        <div class="slds-grid slds-wrap">
+  <lightning-card variant="Narrow" title="New Signature Section" icon-name="record_signature_task">
+    <template if:true={showLoading}>
+        <lightning-spinner alternative-text="Loading" size="medium" class="spinnerClass"></lightning-spinner>
+    </template>
+    <div class="slds-align_absolute-center">
+        <canvas id="sPanel" style="border:1px solid black;"></canvas>
+    </div>
+    <div style="padding-top : 1rem;" >
+        <lightning-button
+        variant="brand"
+        label="Save"
+        class="slds-m-around_x-small"
+        onclick={handleSignature}
+        >
+        </lightning-button>
+
+        <lightning-button
+        variant="brand"
+        label="Clear"
+        class="slds-m-around_x-small"
+        onclick={handleSignatureClear}
+        >
+        </lightning-button>
+    </div>
+  </lightning-card> 
+</div> 
+</div>
+</template>
